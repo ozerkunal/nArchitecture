@@ -11,7 +11,7 @@ using Persistence.Contexts;
 namespace Persistence.Migrations
 {
     [DbContext(typeof(BaseDbContext))]
-    [Migration("20220919185339_Add-Model")]
+    [Migration("20220927225015_Add-Model")]
     partial class AddModel
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
